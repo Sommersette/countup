@@ -1,3 +1,15 @@
 /** {
   border: 1px solid black;
 }*/
+
+.userInput input {
+  width: 33%;
+}
+
+.input-error {
+  border: 1px solid red;
+}
+
+.error {
+  color: red;
+}
