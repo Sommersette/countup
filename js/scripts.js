@@ -1,3 +1,15 @@
+// var replaceVowel = function(string, vowel) {
+//   return string.split(vowel).join("-");
+// }
+// var replacer = function(string) {
+//   var vowels = ['a','e','i','o','u','A','E','I','O','U'];
+//   var newString = '';
+//   vowels.forEach(function(vowel) {
+//     newString = replaceVowel(string, vowel);
+//   });
+//   return newString;
+// }
+
 $(function(){
   $('.answer, .error').hide();
   var answer1 = "Believe you can and you're halfway there. Theodore Roosevelt";
