@@ -44,9 +44,8 @@ $(function(){
       $('.answer').fadeIn();
       $('.answer h3').text(answer1);
     } else {
-      // $('.userInput input').effect('shake');
       $('.error').show();
-      $('.userInput input').addClass('input-error');
+      $('.userInput input').addClass('input-error shake');
     }
   });
 });
